@@ -352,7 +352,7 @@ def get_vless_links(target):
                     # Меняем server на нужный IP,
                     # остальные параметры сохраняем
                     links.append(
-                        f"vless://{uuid}@8.6.112.0:{port}"
+                        f"vless://{uuid}@23.190.168.41:{port}"
                         f"?{query_str}"
                         f"#{prefix}-{remark}"
                     )
