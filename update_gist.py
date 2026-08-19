@@ -352,7 +352,7 @@ def get_vless_links(target):
                     # Меняем server на нужный IP,
                     # остальные параметры сохраняем
                     links.append(
-                        f"vless://{uuid}@23.190.168.41:{port}"
+                        f"vless://{uuid}@8.6.112.4:{port}"
                         f"?{query_str}"
                         f"#{prefix}-{remark}"
                     )
@@ -428,7 +428,7 @@ def get_vless_links(target):
                 # Меняем только server address
                 # ------------------------------------------------
 
-                vnext["address"] = "23.190.168.41"
+                vnext["address"] = "8.6.112.4"
 
                 users = vnext.get(
                     "users",
